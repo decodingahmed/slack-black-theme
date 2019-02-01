@@ -268,7 +268,7 @@ li.active[class] span,
 
 /* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
-  background: var(--background-elevated);
+  background: var(--scrollbar-background);
   border: 1px solid var(--scrollbar-border);
 }
 
@@ -507,7 +507,7 @@ code {
    /* scrollbar draggy bit */
   color: transparent !important;
   border: 1px solid var(--scrollbar-border) !important;
-  background-color: transparent !important;
+  background-color: var(--scrollbar-background) !important;
 }
 .supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div::-webkit-scrollbar-track,
 .supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div::-webkit-scrollbar-track,
