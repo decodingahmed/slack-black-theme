@@ -1,4 +1,4 @@
-# Slack Black Theme
+# Slack Black Theme (for Slack v3 only)
 
 A darker, more contrasty theme for Slack version 3. Slack v4 has a built-in dark theme.
 
